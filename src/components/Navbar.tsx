@@ -100,7 +100,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a 
-              href="tel:+966500000000"
+              href="tel: 009660573209001"
               className="flex items-center gap-3 bg-amber-400 text-slate-900 px-10 py-4 rounded-full font-black text-xl shadow-2xl shadow-amber-500/20"
             >
               <Phone size={24} />
