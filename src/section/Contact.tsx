@@ -16,7 +16,7 @@ const Contact = () => {
   const handleWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const myNumber = "00966573209001";
+    const myNumber = "009660573209001";
 
     const text = `*طلب خدمة جديد من الموقع*%0A%0A` +
       `👤 *الاسم:* ${formData.name}%0A` +
