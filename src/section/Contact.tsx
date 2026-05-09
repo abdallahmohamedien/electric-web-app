@@ -16,7 +16,7 @@ const Contact = () => {
   const handleWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
     // تم تصحيح الرقم (حذف الصفر الزائد بعد كود الدولة) ليعمل الواتساب فوراً
-    const myNumber = "966573209001"; 
+    const myNumber = "01006449235";
 
     const text = `*طلب خدمة جديد من الموقع*%0A%0A` +
       `👤 *الاسم:* ${formData.name}%0A` +
@@ -137,9 +137,9 @@ const Contact = () => {
 
             <div className="space-y-6 md:space-y-8">
               {[
-                { icon: <Phone size={20} />, label: "واتساب / اتصال", value: "0573209001", color: "text-[#eab308]" },
+                { icon: <Phone size={20} />, label: "واتساب / اتصال", value: "100785587", color: "text-[#eab308]" },
                 { icon: <MapPin size={20} />, label: "الموقع الرئيسي", value: "الرياض، المملكة العربية السعودية", color: "text-zinc-400" },
-                { icon: <Mail size={20} />, label: "البريد الإلكتروني", value: "mahmoudhazemyassen@gmail.com", color: "text-zinc-400" }
+                { icon: <Mail size={20} />, label: "البريد الإلكتروني", value: "mxkkdhg9e@gmail.com", color: "text-zinc-400" }
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 md:gap-6 group">
                   <div className="w-10 h-10 md:w-14 md:h-14 bg-zinc-900 border border-zinc-800 rounded-xl md:rounded-2xl flex items-center justify-center text-[#eab308] group-hover:bg-[#eab308] group-hover:text-black transition-all duration-500 shrink-0">
@@ -164,7 +164,7 @@ const Contact = () => {
               </a>
             ))}
           </div>
-          
+
           <p className="text-zinc-600 text-xs md:text-sm font-medium text-center order-3 md:order-2">
             © {new Date().getFullYear()} كهربائي الرياض. صُنع بإتقان لتأمين منزلك.
           </p>
